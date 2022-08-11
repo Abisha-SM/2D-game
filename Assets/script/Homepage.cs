@@ -30,11 +30,12 @@ public class Homepage : MonoBehaviour
     }
     void OnSelectExit()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(6);
     }
     void AddListener()
     {
         Newgame.onClick.AddListener(OnSelectNewgame);
         Settings.onClick.AddListener(OnSelectSettings);
+        Exit.onClick.AddListener(OnSelectExit);
     }
 }
