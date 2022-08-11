@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FLAPPYBIRDGAME/About.unity
     guid: 013582d9f8b6da24a9acf57d3ecd345b
+  - enabled: 1
+    path: Assets/Scenes/FLAPPYBIRDGAME/ExitScreen.unity
+    guid: fa0f9263bb844114b99aec3ef08d883e
   m_configObjects: {}
