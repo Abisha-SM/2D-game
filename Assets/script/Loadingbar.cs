@@ -14,6 +14,8 @@ public class Loadingbar : MonoBehaviour
     {
         currentAmount = 0.0f;
         
+
+
     }
 
     // Update is called once per frame
@@ -25,8 +27,14 @@ public class Loadingbar : MonoBehaviour
             loadingbarimage.GetComponent<Image>().fillAmount = (float)currentAmount / 100.0f;
             
         }
-        
-        
+        else
+        {
+            SceneManager.LoadScene(0);
+        }
+
+
     }
+   
+        
     
 }
